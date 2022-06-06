@@ -3,15 +3,14 @@
 //
 
 //#include <stdio.h>
+//
+//#define PI 3.14
 
 /*
- * # const 关键字
+ * # define 预处理器
  *
- * - const 关键字表示后面定义了一个常量
- * - 常量不可修改
+ * - 定义常量的形式：`#define 常量名 常量值`
  */
-
-//const double PI = 3.14;
 
 //int main() {
 //    double area;
