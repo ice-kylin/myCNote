@@ -1,12 +1,11 @@
 //
 // Created by icekylin on 2022-06-06.
 //
+#include <stdio.h>
 
-//#include <stdio.h>
-//
-//#define A 1
-//#define B A + 3
-//#define C A / B * 3
+#define A 1
+#define B A + 3
+#define C A / B * 3
 
 /*
  * # const 和 #define 的区别
@@ -19,9 +18,9 @@
  * - define 可以配合 `#ifdef`、`#ifndef`、`#endif` 使用
  */
 
-//int main() {
-//    // C = A / A + 3 * 3 = 1 / 1 + 3 * 3 = 10
-//    printf("C = %d", C);
-//
-//    return 0;
-//}
+int main() {
+    // C = A / A + 3 * 3 = 1 / 1 + 3 * 3 = 10
+    printf("C = %d", C);
+
+    return 0;
+}

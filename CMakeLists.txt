@@ -1,6 +1,21 @@
-cmake_minimum_required(VERSION 3.21)
+cmake_minimum_required(VERSION 3.16)
 project(myCNote C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(myCNote basic/basic.c basic/exer.c type_of_data/var.c type_of_data/type_of_data.c type_of_data/int.c type_of_data/float.c type_of_data/char.c type_of_data/bool.c type_of_data/type_conv.c type_of_data/pointer.c type_of_data/exer/pointer.c type_of_data/exer/exer_2.c type_of_data/exer/exer_1.c type_of_data/literal.c const/const.c const/diff.c const/define.c const/diff1.c const/diff2.c const/diff3.c operator/operator.c operator/arithmetic_operators.c operator/exer/arithmetic_operators.c operator/exer/date_conv.c operator/exer/temp_conv.c)
+add_executable(myCNote helloWorld.c)
+
+add_executable(constTest const/constTest.c)
+add_executable(defineTest const/defineTest.c)
+add_executable(operator operator/oper.c)
+add_executable(arithmeticOper operator/arithmeticOper.c)
+
+add_executable(diff const/diff.c)
+add_executable(diff1 const/diff1.c)
+add_executable(diff2 const/diff2.c)
+add_executable(diff3 const/diff3.c)
+add_executable(basic basic/basic.c)
+add_executable(arithmeticOperExer operator/exer/arithmeticOperExer.c)
+add_executable(dateConv operator/exer/dateConv.c)
+add_executable(tempConv operator/exer/tempConv.c)
+add_executable(basicExer basic/basicExer.c)
