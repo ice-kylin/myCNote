@@ -1,8 +1,7 @@
 //
 // Created by icekylin on 2022-04-22.
 //
-
-//#include <stdio.h>
+#include <stdio.h>
 
 /*
  * # 类型转换
@@ -22,11 +21,13 @@
  * - 截断操作
  * - 只对最近的数有效
  */
+int main() {
+    double d1 = 2.33, d2 = 6.66;
+    int i1 = d1;
+    printf("i1 = %d\n", i1);
 
-//int main() {
-//    double d1 = 2.33;
-//    int i1 = d1;
-//    printf("i1 = %d\n", i1);
-//
-//    return 0;
-//}
+    i1 = d2;
+    printf("i1 = %d\n", i1);
+
+    return 0;
+}

@@ -1,8 +1,7 @@
 //
 // Created by icekylin on 2022-04-22.
 //
-
-//#include <stdio.h>
+#include <stdio.h>
 
 /*
  * # 变量的数据类型
@@ -28,10 +27,9 @@
  *   - 指针类型
  *   - 空类型 void
  */
+int main() {
+    printf("int 字节数 = %lu\n", sizeof(int));
+    printf("double 字节数 = %lu\n", sizeof(double));
 
-//int main() {
-//    printf("int 字节数 = %d\n", sizeof(int));
-//    printf("double 字节数 = %d\n", sizeof(double));
-//
-//    return 0;
-//}
+    return 0;
+}

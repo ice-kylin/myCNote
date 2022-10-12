@@ -1,8 +1,7 @@
 //
 // Created by icekylin on 2022-04-22.
 //
-
-//#include <stdio.h>
+#include <stdio.h>
 
 /*
  * # 指针
@@ -29,17 +28,16 @@
  *     - 数组
  *       - 如果是数组，就将数组的首地址传递给接受变量
  */
+int main() {
+    int i1 = 233;
+    // int * 表示类型为 int 指针类型
+    int *ptr1 = &i1; // &变量 取出的是变量对应的地址
 
-//int main() {
-//    int i1 = 233;
-//    // int * 表示类型为 int 指针类型
-//    int *ptr1 = &i1; // &变量 取出的是变量对应的地址
-//
-//    printf("i1 = %d\n", i1);
-//    printf("&i1 = %p\n", &i1);
-//    printf("ptr1 = %p\n", ptr1); // 1. 指针变量存放的地址 ptr
-//    printf("&ptr = %p\n", &ptr1); // 2. 指针变量本身也有地址 &ptr
-//    printf("*ptr = %d\n", *ptr1); // 3. 获取指针指向的值 *ptr
-//
-//    return 0;
-//}
+    printf("i1 = %d\n", i1);
+    printf("&i1 = %p\n", &i1);
+    printf("ptr1 = %p\n", ptr1); // 1. 指针变量存放的地址 ptr
+    printf("&ptr = %p\n", &ptr1); // 2. 指针变量本身也有地址 &ptr
+    printf("*ptr = %d\n", *ptr1); // 3. 获取指针指向的值 *ptr
+
+    return 0;
+}

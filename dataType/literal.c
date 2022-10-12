@@ -1,8 +1,7 @@
 //
 // Created by icekylin on 4/23/22.
 //
-
-//#include <stdio.h>
+#include <stdio.h>
 
 /*
  * # 字面量（常量）
@@ -32,18 +31,17 @@
  *
  * - 字符串字面量是括在双引号中的字符序列
  */
+int main() {
+    int i1 = 0xff;
+    int i2 = 0233;
 
-//int main() {
-//    int i1 = 0xff;
-//    int i2 = 0233;
-//
-//    printf("i1 = %d\n", i1);
-//    printf("i2 = %d\n", i2);
-//
-//    char s1[] = "Hello,"
-//                "world!";
-//
-//    printf(s1);
-//
-//    return 0;
-//}
+    printf("i1 = %d\n", i1);
+    printf("i2 = %d\n", i2);
+
+    char s1[] = "Hello,"
+                "world!";
+
+    printf("%s", s1);
+
+    return 0;
+}
